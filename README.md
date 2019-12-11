@@ -10,5 +10,7 @@ Made with love for you and ufolabs.net
 Installation:
 
 git clone https://github.com/CMDfromBAT/TihonTheSpammer
+
 cd TihonTheSpammer
+
 python3 Tihon.py
