@@ -1,23 +1,25 @@
 import smtplib
 
-
+#DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU
 email_provider = 'smtp.gmail.com' 
 email_address = "tihonthespammer@gmail.com" 
 email_port = 587 
-password = "dontchangeplease"
+password = "dontchangeplease" #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU
 msg = "\nThis is SPAM" 
 spam20 = 20 
 spam50 = 50
 spam100 = 100
 spam1000 = 1000
 
+#Func for sending
 def sending():
+    #Logo
     print(" ________   __   __   __   ______   __   __                             ")
     print("|__    __| |  | |  | |  | |  __  | |  \ |  |                    ")
     print("   |  |    |  | |  |_|  | | |  | | |   \|  |                      ")
-    print("   |  |    |  | |   _   | | |  | | |       |                 ")
-    print("   |  |    |  | |  | |  | | |__| | |  |\   |                      ")
-    print("   |__|    |__| |__| |__| |______| |__| \__| v.1.0                                       ")
+    print("   |  |    |  | |   _   | | |  | | |       |  BY               ")
+    print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                     ")
+    print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.0                                       ")
     print(">>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
     print("\nPlease, choose amount of Emails you want to send: \n[20]  [50]  [100]  [1000]")
     print("Example: 50")
