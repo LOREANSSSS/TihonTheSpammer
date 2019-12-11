@@ -20,13 +20,13 @@ def sending():
     print("   |  |    |  | |   _   | | |  | | |       |  BY               ")
     print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                     ")
     print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.0                                       ")
-    print(">>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+    print(">>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<<                        ")
     print("\nPlease, choose amount of Emails you want to send: \n[20]  [50]  [100]  [1000]")
     print("Example: 50")
     amount = input("Your choise: ")
     print(msg)
     print("Thats the message your victim will became")
-    print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+    print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
     if amount == "20":
         server = smtplib.SMTP(email_provider, email_port)
         server.starttls()
@@ -34,7 +34,7 @@ def sending():
         for _ in range(0,spam20):
             server.sendmail(email_address,target_email,msg)
             print("Sent {}".format(_))
-        print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+        print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam20))
         server.quit()
 
@@ -45,7 +45,7 @@ def sending():
         for _ in range(0,spam50):
             server.sendmail(email_address,target_email,msg)
             print("Sent {}".format(_))
-        print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+        print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam50))
         server.quit()
 
@@ -56,7 +56,7 @@ def sending():
         for _ in range(0,spam100):
             server.sendmail(email_address,target_email,msg)
             print("Sent {}".format(_))
-        print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+        print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam100))
         server.quit()
 
@@ -67,7 +67,7 @@ def sending():
         for _ in range(0,spam100):
             server.sendmail(email_address,target_email,msg)
             print("Sent {}".format(_))
-        print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+        print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam1000))
         server.quit()
 
@@ -81,7 +81,7 @@ print("   |  |    |  | |  |_|  | | |  | | |   \|  |                      ")
 print("   |  |    |  | |   _   | | |  | | |       |  BY              ")
 print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                    ")
 print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.0                                       ")
-print(">>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+print(">>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
 print("WARNING! USE FOR EDUCATIONAL PURPOSE ONLY!DEVELOPER IS NOT RESPONSIBLE!")
 print("RUN AT YOUR OWN RISK!")
 print(">>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
@@ -103,7 +103,7 @@ if s == "y":
             if sure == "y":
                 sending()
             else:
-                print("\n>>>>>>>>>>>>>>THE RUSSIANN SPAMMER<<<<<<<<<<<<<<<<                        ")
+                print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
                 print("Error")
 else:
     sending()
