@@ -1,4 +1,5 @@
 import smtplib
+import sys
 
 #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU
 email_provider = 'smtp.gmail.com' 
@@ -37,6 +38,7 @@ def sending():
         print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam20))
         server.quit()
+        sys.exit()
 
     elif amount == "50":
         server = smtplib.SMTP(email_provider, email_port)
@@ -48,6 +50,7 @@ def sending():
         print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam50))
         server.quit()
+        sys.exit()
 
     elif amount == "100":
         server = smtplib.SMTP(email_provider, email_port)
@@ -59,6 +62,7 @@ def sending():
         print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam100))
         server.quit()
+        sys.exit()
 
     elif amount == "1000":
         server = smtplib.SMTP(email_provider, email_port)
@@ -70,9 +74,11 @@ def sending():
         print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
         print("\n{} Messages were sent to your victim".format(spam1000))
         server.quit()
+        sys.exit()
 
     else:
         print("error")
+        sys.exit()
 
 
 print(" ________   __   __   __   ______   __   __                             ")
@@ -105,6 +111,7 @@ if s == "y":
             else:
                 print("\n>>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
                 print("Error")
+                sys.exit()
 else:
     sending()
 
