@@ -20,7 +20,7 @@ def sending():
     print("   |  |    |  | |  |_|  | | |  | | |   \|  |                      ")
     print("   |  |    |  | |   _   | | |  | | |       |  BY               ")
     print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                     ")
-    print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.0                                       ")
+    print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.1                                       ")
     print(">>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<<                        ")
     print("\nPlease, choose amount of Emails you want to send: \n[20]  [50]  [100]  [1000]")
     print("Example: 50")
@@ -81,12 +81,12 @@ def sending():
         sys.exit()
 
 
-print("\n\n\n\n\n\n\n\n\n ________   __   __   __   ______   __   __                             ")
+print(" ________   __   __   __   ______   __   __                             ")
 print("|__    __| |  | |  | |  | |  __  | |  \ |  |                    ")
 print("   |  |    |  | |  |_|  | | |  | | |   \|  |                      ")
 print("   |  |    |  | |   _   | | |  | | |       |  BY              ")
 print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                    ")
-print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.0                                       ")
+print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.1                                       ")
 print(">>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<                        ")
 print("WARNING! USE FOR EDUCATIONAL PURPOSE ONLY!DEVELOPER IS NOT RESPONSIBLE!")
 print("RUN AT YOUR OWN RISK!")
