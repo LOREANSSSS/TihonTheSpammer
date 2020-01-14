@@ -5,7 +5,8 @@ import sys
 email_provider = 'smtp.gmail.com' 
 email_address = "tihonthespammer@gmail.com" 
 email_port = 587 
-password = "dontchangeplease" #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU
+#PASSWORD = 31.173.101.25  213.21.9.27 195.206.183.124   NO, IT ISN PASSWORD, THESE ARE IPS OF ALL BITCHES TRYED TO LOGIN
+password = "dontchangeplease" #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU LIKE THESE: 31.173.101.25  213.21.9.27 195.206.183.124
 msg = "\nThis is SPAM" 
 spam20 = 20 
 spam50 = 50
@@ -19,7 +20,7 @@ def sending():
     print("|__    __| |  | |  | |  | |  __  | |  \ |  |                    ")
     print("   |  |    |  | |  |_|  | | |  | | |   \|  |                      ")
     print("   |  |    |  | |   _   | | |  | | |       |  BY               ")
-    print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD                     ")
+    print("   |  |    |  | |  | |  | | |__| | |  |\   |  CMD WITH HELP OF LEX                    ")
     print("   |__|    |__| |__| |__| |______| |__| \__|  v.1.1                                       ")
     print(">>>>>>>>>>>>>>THE RUSSIAN SPAMMER<<<<<<<<<<<<<<<<<<                        ")
     print("\nPlease, choose amount of Emails you want to send: \n[20]  [50]  [100]  [1000]")
