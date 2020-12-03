@@ -3,10 +3,10 @@ import sys
 
 #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU
 email_provider = 'smtp.gmail.com' 
-email_address = "tihonthespammer@gmail.com" 
+email_address = "thetihonr@gmail.com" 
 email_port = 587 
 #PASSWORD = 31.173.101.25  213.21.9.27 195.206.183.124   NO, IT ISN PASSWORD, THESE ARE IPS OF ALL BITCHES TRYED TO LOGIN
-password = "pleasedontchange" #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU LIKE THESE: 31.173.101.25  213.21.9.27 195.206.183.124
+password = "Ta4er2280" #DONT CHANGE THE PASSWORD, I`L BECAME YOUR IP AND DDOS YOU LIKE THESE: 31.173.101.25  213.21.9.27 195.206.183.124
 msg = "\nThis is SPAM" 
 spam20 = 20 
 spam50 = 50
